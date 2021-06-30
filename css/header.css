@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 14%;
+}
+
+#link{
+    width: 30%;
+    line-height: 50%;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
