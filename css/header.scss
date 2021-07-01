@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba($color: #000, $alpha: 0.9);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.urls {
+    
+    margin-right:20px;
+    color: #fff;
+    font-family: 'Book Antiqua';
+}
+
+a:hover{
+    opacity: 1;
+    color: rgb(117, 116, 116);
+}
+
+#header-img{
+    display: flex;
+    margin-left: 6%;
+}
+
+#header-smile{
+    height: 60px;
+}
+
+#header-text{
+    line-height: 60px;
+    font-size: 30px;
+    margin-left: 17px;
+    color: #fff;
+    opacity: 0.8;
+    font-family:'Book Antiqua';
+}
+
+#header-urls{
+    line-height: 60px;
+    margin-right: 6%;
+}
+
