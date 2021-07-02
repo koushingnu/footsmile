@@ -10,15 +10,13 @@
 }
 
 #news h1{
-    display: inline;
-    position: relative;
-    top: 40px;
-    left: 25%;
+    text-align: center;
     font-family: 'Book Antiqua';
+    padding-top: 30px;
 }
 
 dl{
-    margin:70px 4% 0 4%;
+    margin:40px 4% 0 4%;
     display:flex;
     flex-wrap: wrap;
     border-top: solid 1px #c8c8c8;
@@ -42,14 +40,35 @@ dd{
 } 
 
 #contact h1{
-    display: inline;
-    position: relative;
-    top: 40px;
-    left: 45%;
+    text-align: center;
     font-family: 'Book Antiqua';
+    padding-top: 35px;
 }
 
+a{
+    text-decoration: none;
+    color: #868686;
+    opacity: 0.8;
+}
 
+a:hover{
+    opacity: 1;
+}
 
+@media screen and (max-width:600px) {
+    
+    dl{
+        flex-direction: column;
+    }
 
+    dt{
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 5px;
+    }
 
+    dd{
+        width:100%;
+        padding-top: 0;
+    }
+}

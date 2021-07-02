@@ -19,22 +19,24 @@ a {
   list-style: none;
 }
 
-.urls {
-  margin-right: 20px;
-  color: #fff;
-  font-family: 'Book Antiqua';
-}
-
 a:hover {
   opacity: 1;
   color: #757474;
 }
 
 #header-img {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 6%;
+}
+
+#header-urls {
+  text-align: right;
+  width: 100%;
+  line-height: 60px;
+  margin-right: 6%;
 }
 
 #header-smile {
@@ -50,8 +52,30 @@ a:hover {
   font-family: 'Book Antiqua';
 }
 
-#header-urls {
-  line-height: 60px;
-  margin-right: 6%;
+.urls {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #fff;
+  font-family: 'Book Antiqua';
+}
+
+@media screen and (max-width: 612px) {
+  #header-img {
+    margin-left: 3%;
+  }
+  #header-urls {
+    margin-right: 3%;
+  }
+  .urls {
+    margin-right: 10px;
+  }
+  #header-text {
+    font-size: 15px;
+    margin-left: 9px;
+  }
+  .urls {
+    margin-right: 5px;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=header.css.map */
