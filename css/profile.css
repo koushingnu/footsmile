@@ -1,6 +1,6 @@
 .name {
   text-align: center;
-  margin: 100px 4% 3px 4%;
+  margin: 40px 4% 3px 4%;
   font-size: 30px;
 }
 
@@ -8,6 +8,10 @@
   text-align: center;
   margin: 0px 4% 25px 4%;
   opacity: 0.6;
+}
+
+.main-visual {
+  margin-top: 60px;
 }
 
 .main-visual img {
