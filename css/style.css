@@ -22,7 +22,7 @@ body {
   position: inherit;
   height: calc(100vh - 73px);
   width: 70%;
-  margin: 0 15%;
+  margin: 0 auto;
   opacity: 0.8;
   z-index: 2;
   font-family: 'Book Antiqua';
@@ -31,8 +31,8 @@ body {
 }
 
 .message {
-  padding-top: 25%;
-  font-size: 80px;
+  padding-top: 170px;
+  font-size: 50px;
   color: red;
 }
 
@@ -78,47 +78,28 @@ body {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0px auto 100px auto;
+  margin: 0 auto 100px auto;
   padding-top: 73px;
   z-index: 2;
   width: 90%;
   opacity: 0.8;
 }
 
-.main .image1, .main .image2, .main .image3, .main .image4, .main .image5, .main .image6 {
-  width: 28%;
-}
-
-.main .image1 {
+.main .image1 img, .main .image2, .main .image3 img, .main .image4, .main .image5 img, .main .image6 {
+  width: 100%;
   height: 250px;
-  background-color: yellow;
+  margin: 20px 0;
 }
 
 .main .image2 {
-  height: 200px;
   background-color: violet;
 }
 
-.main .image3 {
-  height: 250px;
-  background-color: turquoise;
-}
-
 .main .image4 {
-  height: 200px;
-  margin-top: 20px;
   background-color: tomato;
 }
 
-.main .image5 {
-  height: 250px;
-  margin-top: -30px;
-  background-color: teal;
-}
-
 .main .image6 {
-  height: 200px;
-  margin-top: 20px;
   background-color: steelblue;
 }
 
@@ -126,20 +107,5 @@ body {
   margin-top: 100px;
   font-size: 20px;
   background-color: slateblue;
-}
-
-@media screen and (max-width: 600px) {
-  .message {
-    font-size: 50px;
-    padding-top: 170px;
-  }
-  .main .image1, .main .image2, .main .image3, .main .image4, .main .image5, .main .image6 {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-    width: 100%;
-    margin: 17px 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,9 @@
-
-
 .footer {
     position: inherit;
     width: 100%;
     height: calc(100vh - 60px);
     background-color: #fff;
-    z-index: 2;
-    
+    z-index: 2;   
 }
 
 #news h1{
@@ -18,6 +15,7 @@
 dl{
     margin:40px 4% 0 4%;
     display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
     border-top: solid 1px #c8c8c8;
     margin-bottom: 20px;
@@ -25,16 +23,15 @@ dl{
 }
 
 dt{
-    width: 20%;
-    border-bottom: solid 1px #c8c8c8;
+    width: 100%;
     padding: 15px;
     text-align: center;
 } 
 
 dd{
-    width: 80%;
+    width: 100%;
     border-bottom: solid 1px #c8c8c8;
-    padding:15px;
+    padding-bottom:15px;
     margin: 0;
     text-align: center;
 } 
@@ -45,30 +42,13 @@ dd{
     padding-top: 35px;
 }
 
-a{
+dd a {
     text-decoration: none;
     color: #868686;
     opacity: 0.8;
 }
 
+
 a:hover{
     opacity: 1;
-}
-
-@media screen and (max-width:600px) {
-    
-    dl{
-        flex-direction: column;
-    }
-
-    dt{
-        width: 100%;
-        border-bottom: none;
-        padding-bottom: 5px;
-    }
-
-    dd{
-        width:100%;
-        padding-top: 0;
-    }
 }
