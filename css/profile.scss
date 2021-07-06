@@ -15,7 +15,6 @@
 }
 
 .main-visual img{
-    
     width: 100%;
     height: calc(80vh - 60px);
 }
@@ -43,8 +42,7 @@
 }
 
 .portfolio{
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 150px;
 }
 
 .portfolio span{
@@ -54,6 +52,7 @@
 
 
 .self-introduction{
+    padding-top: 100px;
     text-align: left;
     margin-bottom: 100px;
 }
@@ -87,43 +86,59 @@
 }
 
 @media screen and (min-width:600px) {
+    .main-visual img{
+        height: calc(100vh - 60px);
+    }
+
+    .position{
+        top: 10vh;
+        left: 10vw;
+        font-size: 27px;
+    }
+
+    .name{
+        position: absolute;
+        top: 60vh;
+        left: 10vw;
+        text-align: unset;
+        margin:0;
+        font-size: 30px;
+    }
     
+    .s-name{
+        position: absolute;
+        top: 68vh;
+        left: 11vw;
+        text-align: unset;
+        margin:0;
+    }
+
+    .geometory{
+        margin: 0 4%;
+    }
+
+    .thought p{
+        width: 50%;
+        margin-left: 50%;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .about{
+        margin: 0;
+    }
+
+    .url{
+        margin: 0;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .url a{
+        color: black;
+    }
+
+    .url:hover{
+        background-color:rgba(00,00,00,0.1);
+    }
 }
-
-
-
-
-
-
-
-
-
-
-// .geometory{
-//     position:relative;
-//     margin-top: 150px;
-// }
-
-
-
-// .self-contents{
-//     position: relative;
-// }
-
-// .self-contents h1{
-//     font-size: 30px;
-// }
-
-// .self-contents span{
-//     font-size: 50px;
-//     color: green;
-// }
-
-// .self-contents p{
-//     position: absolute;
-//     top: 70px;
-//     left: 30px;
-// }
-
-
-
