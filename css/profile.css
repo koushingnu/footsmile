@@ -21,6 +21,7 @@
 
 .people {
   position: relative;
+  opacity: 0.8;
 }
 
 .position {
