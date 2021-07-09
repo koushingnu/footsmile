@@ -1,5 +1,6 @@
 body {
   position: relative;
+  font-family: 'Josefin Slab', serif;
 }
 
 .swiper-container {
@@ -14,6 +15,7 @@ body {
   height: 100vh;
   object-fit: cover;
   z-index: 1;
+  opacity: 0.7;
 }
 
 .top-message {
@@ -24,14 +26,16 @@ body {
   margin: 0 auto;
   opacity: 0.8;
   z-index: 2;
-  font-family: 'Book Antiqua';
+  // font-family: 'Book Antiqua';
   animation: fadeIn 3s ease 0s 1 normal;
 }
 
 .message {
   padding-top:170px;
-  font-size: 50px;
-  color: red;
+  font-size:100px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: black;
 }
 
 @keyframes fadeIn { 
