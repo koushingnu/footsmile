@@ -1,5 +1,5 @@
 .header {
-  font-family: 'Book Antiqua';
+  font-family: 'Josefin Slab', serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,7 +40,7 @@ a:hover {
 #header-urls {
   text-align: right;
   width: 100%;
-  line-height: 20px;
+  line-height: 36px;
   margin: 10px 10px 0 0;
 }
 

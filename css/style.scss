@@ -71,13 +71,13 @@ body {
   margin: 0 auto 100px auto;
   padding-top: 73px;
   z-index: 2;
-  width: 90%;
   opacity: 0.8;
 
   & .image1 img,.image2,.image3 img,.image4,.image5 img,.image6 {
-    width: 100%;
+    width: 350px;
     height: 250px;
     margin: 20px 0;
+    object-fit: cover;
   }
 
   & .image2 {
@@ -93,6 +93,58 @@ body {
   & .text {
     margin-top: 100px;
     font-size: 20px;
+    width: 80%;
+    max-width: 1000px;
     background-color: slateblue;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .main {
+    width: 700px;
+  
+    & .image1 img,.image2,.image3 img,.image4,.image5 img,.image6 {
+      width: 200px;
+    }
+
+    & .image1 img, .image3 img, .image5 img {
+      height: 200px;
+    } 
+  
+    & .image2, .image4, .image6 {
+      height: 150px;
+    }
+
+    & .image5 img {
+      margin-top: -30px;
+    }
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .main {
+    width: 1150px;
+    margin-bottom: 200px;
+  
+    & .image1 img,.image2,.image3 img,.image4,.image5 img,.image6 {
+      width: 330px;
+    }
+
+    & .image1 img, .image3 img, .image5 img {
+      height: 300px;
+    } 
+  
+    & .image2, .image4, .image6 {
+      height: 250px;
+    }
+
+    & .image5 img {
+      margin-top: -30px;
+    }
+  
+    & .text {
+      margin-top: 200px;
+      width: 600px;
+    }
   }
 }
