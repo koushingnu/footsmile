@@ -4,12 +4,13 @@
     height: calc(100vh - 60px);
     background-color: #fff;
     z-index: 2;   
+    font-family:'Josefin Slab', serif;
 }
 
 #news h1{
     text-align: center;
-    font-family: 'Book Antiqua';
     padding-top: 30px;
+    letter-spacing: 5px;
 }
 
 dl{
@@ -35,11 +36,16 @@ dd{
     margin: 0;
     text-align: center;
 } 
+dd span{
+    font-weight: bold;
+    font-size: 20px;
+} 
 
 #contact h1{
     text-align: center;
-    font-family: 'Book Antiqua';
+    // font-family: 'Book Antiqua';
     padding-top: 35px;
+    letter-spacing: 5px;
 }
 
 dd a {

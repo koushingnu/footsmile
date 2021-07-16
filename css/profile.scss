@@ -40,7 +40,7 @@ body{
     content:'';
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: 5px;
     width: 0%;
     height: 2px;
     background: black;
@@ -52,7 +52,7 @@ body{
     content:'';
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: 5px;
     width: 0%;
     height: 2px;
     background: black;
@@ -62,8 +62,7 @@ body{
 }
 .point.isActive:after {
     width: 100%;
-    
-  }
+    }
   
   .eachTextAnime span{opacity: 0;}
   .eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
@@ -142,7 +141,7 @@ body{
         margin:0;
         font-size: 30px;
     }
-    
+
     .s-name{
         position: absolute;
         top: 68vh;
