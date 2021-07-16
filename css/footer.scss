@@ -1,60 +1,55 @@
 .footer {
     position: inherit;
+    background-color: #000;
+    z-index: 1;
+    padding: 0 20px;
     width: 100%;
-    height: calc(100vh - 60px);
-    background-color: #fff;
-    z-index: 2;   
-    font-family:'Josefin Slab', serif;
+    
+    & .wrapper {
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+        max-width: 600px;
+        height: 100%;
+        display: block;
+    }
+
+    & h1 {
+        color: #fff;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    & .icons {
+        align-self: flex-end;
+        padding-bottom: 30px;
+    }
+    
+    & img {
+        width: 40px;
+        margin: 0 11px;
+    }
 }
 
-#news h1{
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 5px;
-}
-
-dl{
-    margin:40px 4% 0 4%;
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border-top: solid 1px #c8c8c8;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-dt{
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-} 
-
-dd{
-    width: 100%;
-    border-bottom: solid 1px #c8c8c8;
-    padding-bottom:15px;
-    margin: 0;
-    text-align: center;
-} 
-dd span{
-    font-weight: bold;
-    font-size: 20px;
-} 
-
-#contact h1{
-    text-align: center;
-    // font-family: 'Book Antiqua';
-    padding-top: 35px;
-    letter-spacing: 5px;
-}
-
-dd a {
-    text-decoration: none;
-    color: #868686;
-    opacity: 0.8;
-}
-
-
-a:hover{
-    opacity: 1;
+@media screen and (min-width:500px) {
+    .footer {
+        padding: 0 20px;
+        height: 100px;
+        width: 100%;
+        
+        & .wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        & .icons {
+            padding-bottom: 10px;
+        }
+        
+        & img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    }
 }
