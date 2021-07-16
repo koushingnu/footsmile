@@ -98,7 +98,7 @@ body {
   z-index: 5;
 }
 
-.main .image1 img, .main .image2, .main .image3 img, .main .image4, .main .image5 img, .main .image6 {
+.main .image1 img, .main .image2 img, .main .image3 img, .main .image4 img, .main .image5 img, .main .image6 img {
   width: 350px;
   height: 250px;
   margin: 20px 0;
