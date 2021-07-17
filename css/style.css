@@ -22,7 +22,7 @@ body {
 .top-message {
   text-align: center;
   position: inherit;
-  height: calc(100vh - 73px);
+  height: calc(100%-60px);
   width: 70%;
   margin: 0 auto;
   opacity: 0.8;
@@ -60,7 +60,7 @@ body {
   margin-top: 100px;
   font-size: 20px;
   width: 100%;
-  margin: 50px auto;
+  padding: 50px auto;
   max-width: 1000px;
   background-color: slateblue;
 }
