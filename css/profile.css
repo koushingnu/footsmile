@@ -75,6 +75,10 @@ body {
   font-size: 50px;
 }
 
+.portfolio img {
+  width: 600px;
+}
+
 .portfolio span {
   font-size: 70px;
   color: red;
@@ -118,7 +122,8 @@ body {
 .thought p {
   width: 75%;
   margin-left: 25%;
-  text-align: left;
+  text-align: justify;
+  word-wrap: break-word;
   font-size: 20px;
 }
 
@@ -183,7 +188,8 @@ body {
   .thought p {
     width: 50%;
     margin-left: 50%;
-    text-align: left;
+    text-align: justify;
+    word-wrap: break-word;
     font-size: 20px;
   }
   .about {
