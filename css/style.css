@@ -106,18 +106,6 @@ body {
      object-fit: cover;
 }
 
-.main .image2 {
-  background-color: gray;
-}
-
-.main .image4 {
-  background-color: gray;
-}
-
-.main .image6 {
-  background-color: gray;
-}
-
 .contents {
   position: inherit;
   width: 100%;
