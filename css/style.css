@@ -193,13 +193,13 @@ a:hover {
     width: 700px;
     margin: 0 auto;
   }
-  .main .image1 img, .main .image2, .main .image3 img, .main .image4, .main .image5 img, .main .image6 {
+  .main .image1 img, .main .image2 img, .main .image3 img, .main .image4 img, .main .image5 img, .main .image6 img {
     width: 200px;
   }
   .main .image1 img, .main .image3 img, .main .image5 img {
     height: 200px;
   }
-  .main .image2, .main .image4, .main .image6 {
+  .main .image2 img, .main .image4 img, .main .image6 img {
     height: 150px;
   }
   .main .image5 img {
@@ -211,13 +211,13 @@ a:hover {
   .main .images {
     width: 900px;
   }
-  .main .image1 img, .main .image2, .main .image3 img, .main .image4, .main .image5 img, .main .image6 {
+  .main .image1 img, .main .image2 img, .main .image3 img, .main .image4 img, .main .image5 img, .main .image6 img {
     width: 290px;
   }
   .main .image1 img, .main .image3 img, .main .image5 img {
     height: 230px;
   }
-  .main .image2, .main .image4, .main .image6 {
+  .main .image2 img, .main .image4 img, .main .image6 img {
     height: 180px;
   }
 }
@@ -229,13 +229,13 @@ a:hover {
   .main .images {
     width: 1200px;
   }
-  .main .image1 img, .main .image2, .main .image3 img, .main .image4, .main .image5 img, .main .image6 {
+  .main .image1 img, .main .image2 img, .main .image3 img, .main .image4 img, .main .image5 img, .main .image6 img {
     width: 330px;
   }
   .main .image1 img, .main .image3 img, .main .image5 img {
     height: 300px;
   }
-  .main .image2, .main .image4, .main .image6 {
+  .main .image2 img, .main .image4 img, .main .image6 img {
     height: 250px;
   }
   .main .text {
